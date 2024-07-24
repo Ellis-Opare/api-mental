@@ -24,15 +24,14 @@ async def read_root(input:dict):
     Delusional_Disorder = str(predicted[0][3])
     BiPolar1 = str(predicted[0][4])
     BiPolar2 = str(predicted[0][5])
-    Anxiety = str(predicted[0][6])
-    Generalized_Anxiety = str(predicted[0][7])
-    Panic_Disorder = str(predicted[0][8])
-    Specific_Phobia = str(predicted[0][9])
-    Social_Anxiety = str(predicted[0][10])
-    OCD= str(predicted[0][11])
-    PTSD= str(predicted[0][12])
-    Gambling = str(predicted[0][13])
-    substance_abuse = str(predicted[0][14])
+    Generalized_Anxiety = str(predicted[0][6])
+    Panic_Disorder = str(predicted[0][7])
+    Specific_Phobia = str(predicted[0][8])
+    Social_Anxiety = str(predicted[0][9])
+    OCD= str(predicted[0][10])
+    PTSD= str(predicted[0][11])
+    Gambling = str(predicted[0][12])
+    substance_abuse = str(predicted[0][13])
     
 
 
@@ -43,7 +42,6 @@ async def read_root(input:dict):
         "Delusional_Disorder":Delusional_Disorder,
         "BiPolar1":BiPolar1,
         "BiPolar2":BiPolar2,
-        "Anxiety":Anxiety,
         "Generalized_Anxiety":Generalized_Anxiety,
         "Panic_Disorder":Panic_Disorder,
         "Specific_Phobia":Specific_Phobia,
